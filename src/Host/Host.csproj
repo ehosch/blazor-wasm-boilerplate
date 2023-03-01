@@ -4,10 +4,14 @@
         <TargetFramework>net6.0</TargetFramework>
         <RootNamespace>FSH.BlazorWebAssembly.Host</RootNamespace>
         <AssemblyName>FSH.BlazorWebAssembly.Host</AssemblyName>
+        <UserSecretsId>0d63eafa-6215-4b25-b900-73e1424f01d6</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <DockerfileContext>..\..</DockerfileContext>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.5" />
+        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
     </ItemGroup>
 
     <ItemGroup>
